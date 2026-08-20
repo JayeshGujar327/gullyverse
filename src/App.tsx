@@ -172,7 +172,7 @@ export default function App() {
       <AuthProvider>
         <PlayerProvider>
           <LayoutThemeProvider>
-            <Router>
+            <Router basename="/gullyverse">
               <ScrollToTop />
               <MainAppShell />
             </Router>
@@ -182,5 +182,6 @@ export default function App() {
     </ToastProvider>
   );
 }
+
 
 
